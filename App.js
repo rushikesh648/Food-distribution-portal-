@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useMemo, useCallback } from 'react';
 import { initializeApp } from 'firebase/app';
 import { getAuth, signInAnonymously, signInWithCustomToken, onAuthStateChanged } from 'firebase/auth';
-import { getFirestore, doc, setDoc, collection, query, onSnapshot, getDocs, updateDoc, writeBatch } from 'firebase/firestore';
+import { getFirestore, doc, setDoc, collection, query, onSnapshot, getDocs, updateDoc, writeBatch, where } from 'firebase/firestore';
 import { setLogLevel } from 'firebase/firestore';
 
 // Set Firebase log level for debugging
