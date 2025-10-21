@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+build/
+dist/
+.next/
+out/
+
+# Configuration
+*.config.js
+vite.config.js
+webpack.config.js
+
+# Cache
+.cache/
+
+# Environment
+.env*
+
+# Other
+coverage/
+public/
+*.min.js
